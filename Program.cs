@@ -26,7 +26,7 @@ for (int k = 0; k < arrayLength; k++)
     if (array[k].Length <= 3)
     {
         newArray[a] = array[k];
-        a = a + 1;
+        a++;
     }
 }
 
